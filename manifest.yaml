@@ -1,0 +1,6 @@
+name: example-ruby-app
+type: ruby
+memory: 64M
+services:
+  - service: reverse-proxy
+    port: 8080
